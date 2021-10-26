@@ -23,6 +23,7 @@ ApplyISRZBoostSF false # Z-boost weight corrections derived for ISR+stau analysi
 ApplySUSYZBoostSF false # Official Z-boost weight corrections derived by the SUSY PAG.
 ApplyVBFSusyZBoostSF true # Weights derived by the VBF SUSY team - Run II
 
+is2016APV false
 isData false
 ApplyGenWeight  true
 UsePileUpWeight false
@@ -47,7 +48,7 @@ GenDilepMassRange 80.0 100.0
 /// ------ Triggers ----- ///
 
 Trigger1FirstRequirement HLT_DoubleMediumIsoPFTau
-Trigger1SecondRequirement HLT_DoubleMediumIsoPFTauHPS
+Trigger1SecondRequirement HLT_DoubleMediumCombinedIsoPFTau
 UseTriggerWildcard true
 
 /// Trigger2FirstRequirement HLT_DoubleMediumIsoPFTau35_Trk1_eta2p1_Reg
