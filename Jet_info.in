@@ -184,11 +184,11 @@ Tau1MatchingDeltaR 0.4
 Tau2MatchingDeltaR 0.4
 
 ApplyJetBTaggingCSVv2 0 
-ApplyJetBTaggingDeepCSV 1
-ApplyJetBTaggingDeepFlav 0
+ApplyJetBTaggingDeepCSV 0
+ApplyJetBTaggingDeepFlav 1
 
 JetBTaggingWP   medium
-JetBTaggingCut  0.6001
+JetBTaggingCut  0.2598
 MatchBToGen     1
 UseBtagSF       1
 RemoveBJetsFromJets 0
